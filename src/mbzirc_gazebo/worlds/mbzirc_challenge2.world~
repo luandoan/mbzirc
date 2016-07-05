@@ -1,0 +1,583 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+   <world name="mbzirc_challenge2">
+   
+     <!-- Add light source -->
+	<scene>
+	  <sky>
+	    <clouds> 
+		<speed> 10 </speed>
+	    </clouds>
+	  </sky>
+	</scene>
+
+	<include>
+		<uri>model://sun</uri>
+	</include>
+
+     <!-- Challenge 2 arena -->
+	<include>
+		<uri>model://arena</uri>
+	</include>
+
+	<!-- Adding suround objects - fence - easier for mapping -->
+	<include>
+	  <pose> 48.0 22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> 45.0 22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> 42.0 22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> 39.0 22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+	
+	<include>
+	  <pose> 36.0 22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> 33.0 22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> 30.0 22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> 27.0 22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> 24.0 22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> 21.0 22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> 18.0 22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> 15.0 22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> 12.0 22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> 9.0 22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> 6.0 22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> 3.0 22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> 0.0 22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> -3.0 22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> -6.0 22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> -9.0 22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> -12.0 22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> -15.0 22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> -18.0 22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose>-21.0 22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> -24.0 22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> -27.0 22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> -30.0 22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> -33.0 22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> -36.0 22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> -39.0 22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> -42.0 22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> -45.0 22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> -48.0 22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+
+
+	<include>
+	  <pose> 48.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> 45.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> 42.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> 39.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+	
+	<include>
+	  <pose> 36.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> 33.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> 30.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> 27.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> 24.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> 21.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> 18.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> 15.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> 12.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> 9.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> 6.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> 3.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> 0.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> -3.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> -6.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> -9.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> -12.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> -15.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> -18.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> -21.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> -24.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> -27.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> -30.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> -33.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> -36.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> -39.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> -42.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+	<include>
+	  <pose> -45.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+	<include>
+	  <pose> -48.0 -22.5 0 0 0 0 </pose>
+	  <uri>model://jersey_barrier</uri>
+	</include>
+
+	<!-- Cone for middle position -->
+	<include>
+	  <pose> -3.0 0 0 0 0 0 </pose>
+	  <uri>model://construction_cone</uri>
+	</include>
+	<include>
+	  <pose> 3.0 0 0 0 0 0 </pose>
+	  <uri>model://construction_cone</uri>
+	</include>
+	<include>
+	  <pose> 0 3.0 0 0 0 0 </pose>
+	  <uri>model://construction_cone</uri>
+	</include>
+	<include>
+	  <pose> 0 -3.0 0 0 0 0 </pose>
+	  <uri>model://construction_cone</uri>
+	</include>
+
+	<include>
+	  <pose> -3.0 0 0 0 0 0 </pose>
+	  <uri>model://construction_cone</uri>
+	</include>
+
+	<!-- VT sign -->
+	<include>
+	  <pose> 41.0 -4.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> 39.5 -1.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> 38.0 2.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> 36.0 5.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> 34.0 2.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> 32.5 -1.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> 31.5 -4.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+
+	<include>
+	  <pose> 27.0 -4.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> 23.5 -4.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> 19.5 -4.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> 23.5 -1.5 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> 23.5 2.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> 23.5 5.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+
+	<!-- CMS sign -->
+	<include>
+	  <pose> -12.0 5.0 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+	<include>
+	  <pose> -14.5 7.0 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+	<include>
+	  <pose> -17.0 6.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+	<include>
+	  <pose> -11.0 1.5 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+	<include>
+	  <pose> -12.0 -2.0 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+	<include>
+	  <pose> -14.0 -5.0 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+	<include>
+	  <pose> -16.5 -5.0 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+	<include>
+	  <pose> -18.5 -2.7 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+	<include>
+	  <pose> -18.5 3.7 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+
+
+
+	<include>
+	  <pose> -22.0 -5.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> -22.0 -2.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> -22.0 1.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> -22.0 4.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> -22.0 7.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> -24.5 -3.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> -26.5 -1.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> -28.0 -3.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> -30.0 -5.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> -30.0 -2.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> -30.0 1.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> -30.0 4.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+	<include>
+	  <pose> -30.0 7.0 0 0 0 0 </pose>
+	  <uri>model://cube_20k</uri>
+	</include>
+
+
+	<include>
+	  <pose> -42.0 -4.0 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+	<include>
+	  <pose> -39.0 -5.0 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+	<include>
+	  <pose> -36.0 -4.0 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+	<include>
+	  <pose> -37.0 -1.0 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+	<include>
+	  <pose> -40.0 0.0 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+	<include>
+	  <pose> -43.0 3.0 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+	<include>
+	  <pose> -41.0 6.0 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+	<include>
+	  <pose> -37.0 6.0 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+	<include>
+	  <pose> -35.0 3.0 0 0 0 0 </pose>
+	  <uri>model://construction_barrel</uri>
+	</include>
+	
+	
+	
+	
+
+
+     <!-- Adding board and wrenches -->
+	<include>
+	  <pose> -17.5 13.0 0 0 0 0.7</pose>	<!-- double check with arena model -->
+	  <uri>model://panel</uri>
+	</include>
+
+     <!-- Adding wrenches on board -->
+	<include>
+          <pose>5.165 3.2 0.6725 0 0 0</pose>
+          <uri>model://wrench12</uri>
+        </include>
+
+        <include>
+          <pose>5.165 3.25 0.6725  0 0 0</pose>
+          <uri>model://wrench13</uri>
+        </include>
+
+        <include>
+          <pose>5.165 3.30 0.6725  0 0 0</pose>
+          <uri>model://wrench14</uri>
+        </include>
+
+        <include>
+          <pose>5.165 3.35 0.6725  0 0 0</pose>
+          <uri>model://wrench15</uri>
+        </include>
+  
+        <include>
+          <pose>5.165 3.40 0.6725  0 0 0</pose>
+          <uri>model://wrench17</uri>
+        </include>
+
+        <include>
+          <pose>5.165 3.45 0.6725  0 0 0</pose>
+          <uri>model://wrench19</uri>
+        </include>
+
+     <!-- Adding orbit camera to view to whole arena -->
+	<gui fullscreen='0'>
+	   <camera name="view_cam">
+	      <pose>159.908 -1.39949 83.4967 0 0.559643 -3.11099</pose>
+              <view_controller>orbit</view_controller>
+           </camera>
+        </gui>	
+
+   </world>
+</sdf>
